@@ -52,6 +52,9 @@ nav li a{
 .dark-2{
     color:#474747;
 }
+.dark-3{
+    color:rgba(117, 117, 117, 1);
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -129,4 +132,48 @@ main section{
 }
 .section-description{
     padding-bottom: 50px;
+}
+/* resume-conrainer styles*/
+.resume-container{
+    display: flex;
+    gap:24px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size:25px;
+}
+.experience-sub-title{
+    font-weight:600px;
+    font-size:20px;
+    color: rgba(117, 117, 117, 1);
+}
+.experience-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+.text{
+    text-align: center;
+    margin:50px 420px;
+} 
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap:100px;
+}
+.footer-column{
+    width:50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width:100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
